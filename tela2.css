@@ -1,0 +1,16 @@
+p{
+    display: block;
+    margin: auto;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4c53af;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+h2{
+    color: blue;
+}

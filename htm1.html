@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="chatgpt.css">
+</head>
+
+
+<body>
+    <div class="container"> </div>
+
+    <h1> Contador de cliques! </h1>
+    <button id="botao">Clique Aqui! </button> 
+    
+    <p id="contador">0</p>
+   
+
+
+    <script>
+            const contador = document.getElementById("contador");
+            const botao = document.getElementById("botao");
+
+
+            let valor = 0
+
+
+            botao.addEventListener("click", () => {
+            valor++;
+            contador.textContent = valor;
+            });
+    </script>
+</body>
+
+</html>

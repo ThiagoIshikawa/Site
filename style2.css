@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f0ea;
+    color: #798252;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    padding: 2rem;
+    background-color: #331f19;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h2 {
+    color: #331f19;
+    font-size: 1.2rem;
+}
+
+input[type = "radio"], [type = "checkbox"]  {
+    accent-color: #CCD595;
+}
+
+input [type = "text"], [type = "password"]{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #f4f0ea;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #CBBBA7;
+}

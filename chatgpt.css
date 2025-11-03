@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 10vh;
+    height:7vh;
+    background-color: red;
+    border-radius: 100px;
+    
+}
